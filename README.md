@@ -71,7 +71,7 @@ To run the application locally, follow these steps:
 
 ### Accessing the Database
 
-To view and interact with the database, navigate to the `db` folder. Right-click on the `.db` file and open it with an SQLite viewer.
+To view and interact with the database, navigate to the `db` folder. Right-click on the `shop.db` file and open it with an SQLite viewer.
 
 **To install SQLite Viewer in VSCode:**
 
