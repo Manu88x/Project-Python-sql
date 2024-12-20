@@ -1,4 +1,3 @@
-
 # E-Commerce Management System
 
 #### A simple backend application to manage customers, products, and shopping carts for an e-commerce store.
@@ -7,7 +6,7 @@
 
 ## Description
 
-This is a backend system built using Python and SQLite that allows you to manage customers, products, and shopping carts. Users can add, delete, view, search, and update customer information, product details, and cart items. This system is designed to simulate common e-commerce management operations.
+This backend system is built using **Python** and **SQLite** to manage customers, products, and shopping carts. Users can add, delete, view, search, and update customer information, product details, and cart items. This system simulates common e-commerce management operations.
 
 ## Features
 
@@ -34,74 +33,59 @@ This is a backend system built using Python and SQLite that allows you to manage
 - SQLite (or a similar database for extended functionality)
 - Basic understanding of Python and SQL
 
-1. Run the development app: pick the option you desire and see its functionality:
+### Running the Application
 
-   
-bash
-   python app.py  
+To run the application locally, follow these steps:
 
+1. Clone this repository:
 
-### Table:
-To use options effectively acess and view the table by going to the db folder and right click on.
+    ```bash
+    git clone https://github.com/Manu88x/Project-Python-sql
+    ```
 
-a.Requirement:
-But to this you require to install sq lite veiwer
-
-b.Steps:
- 1.Go the extensions in vscode its the fifth icon on the left side of your screen 
- 2.Then search Sqlite you will see it there sq lite veiwer
-
-### Local Development
-
-If you want to run the project locally, follow these steps:
-
-1. Clone this repository using:
-
-   
-bash
-   https://github.com/Manu88x/Project-Python-sql
-
-
-   or by downloading a ZIP file of the code.
+    Or download a ZIP file of the code.
 
 2. Navigate to the project directory:
 
-   
-bash
-   cd PROJECT-E
-
+    ```bash
+    cd PROJECT-E
+    ```
 
 3. Install the required dependencies:
 
-   
-bash
-   pipenv install
+    ```bash
+    pipenv install
+    ```
 
+4. Set up the virtual environment:
 
-4. Set up the virtual enviroment:
+    ```bash
+    pipenv shell
+    ```
 
-   
-bash
-   pipenv shell
+5. Run the app:
 
+    ```bash
+    python app.py
+    ```
+
+### Accessing the Database
+
+To view and interact with the database, navigate to the `db` folder. Right-click on the `.db` file and open it with an SQLite viewer.
+
+**To install SQLite Viewer in VSCode:**
+
+1. Go to the **Extensions** tab (the fifth icon on the left side of your screen).
+2. Search for **SQLite Viewer** and install it.
 
 ## Technologies Used
 
-- Python
-- Sql
-
+- **Python**
+- **SQLite**
 
 ## Support and Contact Details
 
 If you have any questions, suggestions, or need assistance, please contact:
 
-- Email: <Emmanuel.okoth@student.moringaschool.com>
+- **Email**: Emmanuel.okoth@student.moringaschool.com
 
-
-### Key Sections of the README:
-- **Project Title** and **Description**: Gives a brief summary of the project and its purpose.
-- **Features**: Lists the major functionalities of the system.
-- **How to Use**: Instructions on how to run and interact with the application locally, including requirements and setup.
-- **Technologies Used**: The main technologies used in this project.
-- **Support and Contact**: Contact information for questions or support.
-- **License**: The license details for the project.
