@@ -80,7 +80,7 @@ To view and interact with the database, navigate to the `db` folder. Right-click
 
 ## Main Menu Options:
 
-Once the application is set up and running, you will be presented with the Main Menu. Below are the available options and their descriptions:
+Once the application is set up and running, you will be presented with the Main Menu. Below are the available options and their descriptions(remember use numbers as options):
 
 ### **Option 1: Add (Customer/Product/Cart)**
 - **Purpose:** Add new entities (customers, products, or cart items) to the database.
